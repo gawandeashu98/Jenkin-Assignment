@@ -4,21 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyShop - Home</title>
+    <title>Furniture Mart</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            background: #f4f4f4;
+            background: #f8f8f8;
         }
         header {
-            background: #222;
-            color: #fff;
+            background: #5a3e2b;
+            color: white;
             padding: 15px;
             text-align: center;
         }
         nav {
-            background: #ff6600;
+            background: #a67c52;
             padding: 10px;
             text-align: center;
         }
@@ -33,16 +33,16 @@
         }
         .products {
             display: flex;
-            gap: 20px;
             flex-wrap: wrap;
+            gap: 20px;
         }
         .product {
             background: white;
             padding: 15px;
+            width: 220px;
             border-radius: 8px;
-            width: 200px;
-            text-align: center;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
         }
         .product img {
             width: 100%;
@@ -50,7 +50,7 @@
             object-fit: cover;
         }
         .product button {
-            background: #ff6600;
+            background: #5a3e2b;
             color: white;
             border: none;
             padding: 10px;
@@ -58,10 +58,10 @@
             margin-top: 10px;
         }
         footer {
+            background: #5a3e2b;
+            color: white;
             text-align: center;
             padding: 10px;
-            background: #222;
-            color: white;
             margin-top: 20px;
         }
     </style>
@@ -69,41 +69,50 @@
 <body>
 
 <header>
-    <h1>MyShop</h1>
-    <p>Your Simple eCommerce Store</p>
+    <h1>Furniture Mart</h1>
+    <p>Quality Furniture for Your Home</p>
 </header>
 
 <nav>
     <a href="#">Home</a>
-    <a href="#">Products</a>
-    <a href="#">Cart</a>
+    <a href="#">Sofas</a>
+    <a href="#">Chairs</a>
+    <a href="#">Tables</a>
     <a href="#">Contact</a>
 </nav>
 
 <div class="container">
-    <h2>Featured Products</h2>
-    <div class="products">
+    <h2>Our Products</h2>
 
 ```
+<div class="products">
+
     <div class="product">
-        <img src="https://via.placeholder.com/200" alt="Product">
-        <h3>Product 1</h3>
-        <p>₹499</p>
-        <button>Add to Cart</button>
+        <img src="https://via.placeholder.com/200" alt="Sofa">
+        <h3>Luxury Sofa</h3>
+        <p>₹15,999</p>
+        <button>Buy Now</button>
     </div>
 
     <div class="product">
-        <img src="https://via.placeholder.com/200" alt="Product">
-        <h3>Product 2</h3>
-        <p>₹799</p>
-        <button>Add to Cart</button>
+        <img src="https://via.placeholder.com/200" alt="Chair">
+        <h3>Wooden Chair</h3>
+        <p>₹2,499</p>
+        <button>Buy Now</button>
     </div>
 
     <div class="product">
-        <img src="https://via.placeholder.com/200" alt="Product">
-        <h3>Product 3</h3>
-        <p>₹999</p>
-        <button>Add to Cart</button>
+        <img src="https://via.placeholder.com/200" alt="Table">
+        <h3>Dining Table</h3>
+        <p>₹9,999</p>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="product">
+        <img src="https://via.placeholder.com/200" alt="Bed">
+        <h3>King Size Bed</h3>
+        <p>₹18,999</p>
+        <button>Buy Now</button>
     </div>
 
 </div>
@@ -112,7 +121,7 @@
 </div>
 
 <footer>
-    <p>© 2026 MyShop | All Rights Reserved</p>
+    <p>© 2026 Furniture Mart | All Rights Reserved</p>
 </footer>
 
 </body>
